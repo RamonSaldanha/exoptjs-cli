@@ -1,0 +1,19 @@
+{
+  "name": "exoptjs-cli",
+  "version": "1.0.0",
+  "description": "Exoptjs archives generate",
+  "main": "bin/exopt-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramon Saldanha <ramonsaldanhaa@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "exopt": "./bin/exopt-cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7"
+  }
+}
