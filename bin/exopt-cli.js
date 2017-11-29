@@ -15,7 +15,7 @@ if (program.createcontroller) {
 
 	var dirname = program.createcontroller;
 
-	mkdirp(program.createcontroller, function(err) { 
+	mkdirp('controllers/'+program.createcontroller+'.js', function(err) { 
     console.log("criado");
 	});
 
